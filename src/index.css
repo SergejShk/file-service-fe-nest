@@ -1,0 +1,80 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 0;
+	min-width: 100vw;
+	min-height: 100vh;
+	background-color: #fff;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+}
+
+.hidden {
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+@keyframes animateDots {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	24% {
+		transform: scale(0.72);
+		opacity: 0.3;
+	}
+	48% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
